@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='dark'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AudioPlayer</title>
+  
+  
+  <!-- <span class="material-icons-outlined">
+    dark_mode
+    </span>
+   -->
+  
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- <div class="wrapper2">
+    <h1>MP3Originals</h1>
+  </div> -->
+</head>
+<body>
+    <!-- <div class="wrapper2">
+      <h1>MP3Originals</h1>
+    </div> -->
+  <div class="wrapper">
+    <div class="top-bar">
+       <a href="#" class="button">
+        <label>
+        <!-- <input type="checkbox" name="theme"> -->
+        <!-- <span class="btn sr-only">Search</span> -->
+        <!-- <i class="fas fa-moon"></i> -->
+        <i class="material-icons">dark_mode</i>
+        </label>
+       </a>
+       <!-- <i class="material-icons">dark_mode</i> -->
+      <span>Now Playing</span>
+      <i class="material-icons">shuffle</i>
+    </div>
+    <div class="img-area">
+      <img id="picture" src="" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+  </div>  
+  <div class="wrapper2">
+    <div class="playlist">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Track List</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+
+      </ul>
+    </div>
+    </div>
+  </div>
+
+  <!-- <div class=wrapper>
+
+    <div class="playlist">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Track List</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+
+      </ul>
+
+   </div> -->
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
